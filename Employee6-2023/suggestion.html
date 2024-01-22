@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>員工關係部員工意見箱</title><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="csspng/jquery.ifixpng.js"></script>
+<script language="JavaScript" type="text/javascript" src="csspng/iepngfix_tilebg.js"></script>
+<script type="text/javascript" language="javascript">
+$(function(){
+	$("*").ifixpng();
+});
+function img_t(){
+	$('img').ifixpng();
+}
+    
+function displayTextSelect(val)
+    {
+        if(val=="其他")
+        {
+            document.getElementById('lblOption').style.display='inline';
+            document.getElementById('idTxtType').style.display='inline';
+            
+        }
+        else{
+            document.getElementById('lblOption').style.display='none';
+            document.getElementById('idTxtType').style.display='none';
+        }
+}
+
+function checkForm() 
+{
+	if(document.suggForm.txtName.value=="")
+	{
+		alert("請填寫姓名!");
+		return false;
+	}
+	else if(document.suggForm.txtMail.value=="")
+	{
+		alert("請填寫電子郵件!");
+		return false;
+	}
+	else
+	{
+        alert("您的信送出去了！謝謝您的寶貴意見！");     
+		return true;
+	}
+ }
+
+
+</script>
+<link rel="SHORTCUT ICON" href="images/compal-wbe-logo.ico"/>
+<link href="empinfo_main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/2-1-style.css" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #FFF;
+}
+-->
+</style></head>
+
+<body>
+<form name="suggForm" method="post" onsubmit="return checkForm();" action="sendmail.asp">
+<div id="top">
+   <img src="images/topbg_s.jpg" width="1920" height="230" border="0" />
+   <iframe src="topframe.html" width="1920" height="70" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" align="center"></iframe>
+</div> 
+<div id="container">
+<div id="company">
+<div id="main">
+	<div>
+	    <div style="padding: 0px 0px 0px 190px; width: 920px;">
+	      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	        <tbody>
+            <!--
+            <tr>
+	          <td align="left" valign="top"><img src="images/title_suggestion_1.jpg" height="370" width="920" /></td>
+            </tr>
+            -->
+	        <tr>
+	          <td align="left" valign="top">&nbsp;</td>
+            </tr>
+	        <tr>
+	          <td class="txt_link" align="left" valign="top">如果您對公司有任何的意見或看法，請您透過此信箱告訴我們。<br />
+              我們將十分樂意為您解答任何問題，並企盼透過您的良善建議，使公司朝向更好的方向發展。<p><b>
+				<font color="#cc0000">
+				為加速您的問題能有效地被處理與回覆，若有屬於電腦相關的問題，請直接播打**199報修或進入<a href="http://tpecnswww/helpdesk/">IT 
+				Call Center平台</a></font></b></p>
+				<p><b><font color="#cc0000">若有屬於總務及大樓設備的問題，請直接進入<a rel="URLDescription.aspx?i=335" href="http://tpecnswww/gars/">總務及大樓設備叫修平台</a>，皆有專人立即提供服務</font></b></p>
+				<p><font color="#cc0000">(電腦相關問題：包含E-Form、SAP、ISPD、軟體授權、電腦或網路等)</font></p>
+				<p><font color="#cc0000">(總務相關問題：採購、清潔、餐廳、門禁、停車位、維修、空調、警衛保全等)</font> </p>
+				<p><font color="#cc0000">性騷擾申訴信箱：<a href="mailto:sh@compal.com">sh@compal.com</a> 相關辦法請參閱<a href="http://tpewww/Dept/HR/">性騷擾防治措施申訴及懲戒辦法</a></font> </p>
+				</td>
+				
+            </tr>
+	        <tr>
+	          <td align="left" valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+	            <tbody><tr>
+	              <td align="left" valign="top"><table border="0" cellpadding="0" cellspacing="0">
+	                <tbody>
+                    <tr>
+                      <!--
+	                  <td align="left" valign="bottom"><img src="images/icon_tree.png" alt="" class="img_p01" height="35" width="35" /></td>
+                      -->
+	                  <td class="txt_title" align="left" valign="bottom">《意見回饋》</td>
+                    </tr>
+	                </tbody></table></td>
+                </tr>
+	            <tr>
+	              <td align="left" valign="top"><table border="0" cellpadding="6" cellspacing="0" width="100%">
+	                <tbody><tr>
+	                  <td class="border_04" align="left" valign="middle" width="100"><span class="co_02">◆</span> 意見類別：</td>
+	                  <td class="border_04" align="left" valign="middle"><table border="0" cellpadding="0" cellspacing="0">
+	                    <tbody><tr>
+	                      <td align="center" valign="middle"><label>
+	                        <input name="radioSugg" id="radio" value="問題反應" type="radio" />
+	                        </label></td>
+	                      <td align="center" valign="middle">問題反應&nbsp;</td>
+	                      <td align="center" valign="middle"><input name="radioSugg" id="radio" value="建議" checked="checked" type="radio" /></td>
+	                      <td align="center" valign="middle">建議&nbsp;</td>
+	                      <td align="center" valign="middle"><input name="radioSugg" id="radio" value="稱讚" type="radio" /></td>
+	                      <td align="center" valign="middle">稱讚</td>
+	                      </tr>
+                      </tbody></table></td>
+                    </tr>
+	                <tr>
+	                  <td class="border_04" align="left" height="25" valign="middle"><span class="co_01">◆</span> 主題：</td>
+	                  <td class="border_04" align="left" valign="middle"><table border="0" cellpadding="0" cellspacing="0">
+	                    <tbody><tr>
+	                      <td><label>
+	                        <select name="selectType" class="txt_f01" id="select" onchange="displayTextSelect(this.value);"><option value="公司制度">公司制度</option><option value="工作環境">工作環境</option><option value="員工福利">員工福利</option><option value="出差問題">出差問題</option><option value="其他">其他</option></select>
+	                      &nbsp;</label></td>
+	                      <td><label id="lblOption" style="display: none;">請填寫類別：</label></td>
+	                      <td><input style="width: 250px; display: none;" name="txtType" id="idTxtType" class="txt_f01" /></td>
+	                      </tr>
+                      </tbody></table></td>
+                    </tr>
+	                <tr>
+	                  <td class="border_04" align="left" valign="middle"><span class="co_02">◆</span>&nbsp;內容：</td>
+	                  <td class="border_04" align="left" valign="middle"><textarea class="txt_f01" name="txtContent" rows="3" id="textfield4" style="width: 99%;"></textarea></td>
+                    </tr>
+                  </tbody></table></td>
+                </tr>
+	            <tr>
+	              <td align="left" valign="top"><table border="0" cellpadding="0" cellspacing="0">
+	                <tbody>
+                    <tr>
+                      <!--
+	                  <td align="left" valign="bottom"><img src="images/icon_tree.png" alt="" class="img_p01" height="35" width="35" /></td>
+                      -->
+	                  <td class="txt_title" align="left" valign="bottom">《聯絡方式》</td>
+                    </tr>
+	                </tbody></table></td>
+                </tr>
+	            <tr>
+	              <td align="left" valign="top"><table border="0" cellpadding="6" cellspacing="0" width="100%">
+	                <tbody><tr>
+	                  <td class="border_04" align="left" valign="middle" width="100"><span class="co_02">◆</span> 姓名：</td>
+	                  <td class="border_04" align="left" valign="middle"><input style="width: 100px;" name="txtName" id="textfield" class="txt_f01" type="text" /></td>
+                    </tr>
+	                <tr>
+	                  <td class="border_04" align="left" valign="middle"><span class="co_01">◆</span> 電子郵件：</td>
+	                  <td class="border_04" align="left" valign="middle"><input style="width: 300px;" name="txtMail" id="textfield2" class="txt_f01" type="text" /></td>
+                    </tr>
+	                <tr>
+	                  <td class="border_04" align="left" valign="middle"><span class="co_02">◆</span> 聯絡電話：</td>
+	                  <td class="border_04" align="left" valign="middle"><input style="width: 100px;" name="txtPhone" id="textfield3" class="txt_f01" type="text" />
+	                    分機
+	                    <input style="width: 30px;" name="txtDirect" id="textfield5" class="txt_f01" type="text" /></td>
+                    </tr>
+	                </tbody></table></td>
+                </tr>
+	            <tr>
+	              <td align="center" height="45" valign="middle"><table class="pages2_a" border="0" cellpadding="1" cellspacing="0">
+  <tbody><tr>
+    <td><div style="width: auto; float: left;"><input name="checkASAP" id="checkbox" type="checkbox" /></div><div style="width: 90px; float: left; line-height: 20px;">&nbsp;請盡快與我聯絡</div></td>
+  </tr>
+</tbody></table></td>
+                </tr>
+	            <tr>
+	              <td align="center" valign="bottom"><div id="pages2"><input value="送出意見" type="submit" />　<input value="清除表單" type="reset" /></div></td>
+                </tr>
+              </tbody></table></td>
+            </tr>
+          </tbody></table>
+	    </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--
+<div id="bottom">
+	<div><iframe src="bottomframe.html" marginwidth="0" marginheight="0" align="middle" frameborder="0" height="120" scrolling="no" width="980"></iframe></div>
+</div>
+-->
+</form>
+</body></html>
