@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<link rel="SHORTCUT ICON" href="images/compal-wbe-logo.ico"/>
+	<meta name="Generator" content="" />
+	<meta name="Author" content="haco 吳淑玲 hacodog@gmail.com" />
+    <meta name="copyright" content="本網頁著作所有">
+	<meta name="Keywords" content="仁寶園地" />
+	<meta name="Description" content="這是屬於仁寶人的園地" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>仁寶園地自然田輪播式圖片</title>
+<link href=" " rel="stylesheet" type="text/css" />
+
+<SCRIPT language=JavaScript>
+<!-- Begin
+
+// 設定時間
+var slideShowSpeed = 3000;
+
+// 設定圖片 , 可隨意增加或減少
+var Pic = new Array();
+Pic[0] = 'images/topimage/004.jpg'
+Pic[1] = 'images/topimage/005.jpg'
+Pic[2] = 'images/topimage/006.jpg'
+
+
+var t;
+var j = 0;
+var p = Pic.length;
+var preLoad = new Array();
+var crossFadeDuration = 3;
+for (i = 0; i < p; i++) {
+preLoad[i] = new Image();
+preLoad[i].src = Pic[i];
+}
+function runSlideShow() {
+if (document.all) {
+document.images.SlideShow.style.filter="blendTrans(duration=2)";
+document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+document.images.SlideShow.filters.blendTrans.Apply();
+}
+document.images.SlideShow.src = preLoad[j].src;
+if (document.all) {
+document.images.SlideShow.filters.blendTrans.Play();
+}
+j = j + 1;
+if (j > (p - 1)) j = 0;
+t = setTimeout('runSlideShow()', slideShowSpeed);
+}
+
+// End -->
+</SCRIPT>
+
+
+
+
+</head>
+
+<BODY topmargin="0" leftmargin="0" onload=runSlideShow() >
+<a href="compal3.html" target="_top"><IMG src="images/topimage/004.jpg" name=SlideShow width="1920" height="550" border=0></a>
+
+</body>
+
+</html>
