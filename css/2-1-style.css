@@ -376,13 +376,13 @@ p span {
 }
 #columnsTitle9 {
 	font-size: 18px;
-	font-weight:bold;
+	font-weight: bold;
 	background-color: #FFFFFF;
 	padding-bottom: 20px;
 	width: 1139px;
 	padding-top: 30px;
-	padding-left: 50px;
 	color: #00F;
+	padding-left: 50px;
 }
 #columnsTitle10 {
 	width: 370px;
@@ -719,14 +719,14 @@ p span {
 	padding-right: 25px;
 }
 .text2 {
-	line-height:25px;
+	line-height: 25px;
 	table-layout: fixed;
 	word-wrap: break-word;
 	word-break: normal;
 	text-align: justify;
 	text-justify: inter-ideograph;
 	text-indent: 2em;
-	padding-left: 30px;
+	padding-left: 50px;
 	color: #000;
 	padding-right: 30px;
 }
