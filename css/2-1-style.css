@@ -393,6 +393,13 @@ p span {
 	padding-bottom: 30px;
 	padding-top: 20px;
 }
+#columnsTitle11 {
+	width: 1190px;
+	font-size: 23px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	height: 35px;
+}
 
 #columnsleft {
 	background-color: #FFFFFF;
@@ -726,7 +733,7 @@ p span {
 	text-align: justify;
 	text-justify: inter-ideograph;
 	text-indent: 2em;
-	padding-left: 50px;
+	padding-left: 60px;
 	color: #000;
 	padding-right: 30px;
 }
