@@ -429,10 +429,17 @@ p span {
 }
 #columnsleft_5 {
 	background-color: #FFFFFF;
-	width: 500px;
+	width: 370px;
 	height: auto;
 	float: left;
-	margin-left: 50px;
+	margin-left: 150px;
+}
+#columnsleft_6 {
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: auto;
+	float: left;
+	margin-left: 95px;
 }
 
 
@@ -525,6 +532,11 @@ p span {
 	height: 223px;
 	float: left;
 }
+#images_4 {
+	background-color: #FFFFFF;
+	width: 1000px;
+	float: left;
+}
 
 
 #columnscopy {
@@ -545,7 +557,7 @@ p span {
 }
 #columnscopy2 {
 	background-color: #FFFFFF;
-	width: 500px;
+	width: 370px;
 	height: auto;
 	float: left;
 	vertical-align: text-top;
@@ -575,12 +587,30 @@ p span {
 }
 #columnscopy5 {
 	background-color: #FFFFFF;
-	width: 500px;
+	width: 370px;
 	height: auto;
 	float: left;
 	vertical-align: text-top;
 	padding-top: 25px;
 	text-align: center;
+}
+#columnscopy6 {
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: auto;
+	float: left;
+	vertical-align: text-top;
+	padding-top: 25px;
+	text-align: center;
+}
+#columnscopy7 {
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: auto;
+	float: left;
+	vertical-align: text-top;
+	padding-top: 5px;
+	color: #666;
 }
 
 
