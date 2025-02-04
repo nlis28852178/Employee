@@ -429,10 +429,10 @@ p span {
 }
 #columnsleft_5 {
 	background-color: #FFFFFF;
-	width: 370px;
+	width: 500px;
 	height: auto;
 	float: left;
-	margin-left: 150px;
+	margin-left: 50px;
 }
 
 
@@ -490,10 +490,10 @@ p span {
 }
 #columnsright_8 {
 	background-color: #FFFFFF;
-	width: 370px;
+	width: 500px;
 	height: auto;
-	float:  left;
-	margin-left: 150px;
+	float: left;
+	margin-left: 50px;
 }
 
 #images {
@@ -516,7 +516,7 @@ p span {
 }
 #images_2 {
 	background-color: #FFFFFF;
-	width: 370px;
+	width: 500px;
 	float: left;
 }
 #images_3 {
@@ -545,7 +545,7 @@ p span {
 }
 #columnscopy2 {
 	background-color: #FFFFFF;
-	width: 370px;
+	width: 500px;
 	height: auto;
 	float: left;
 	vertical-align: text-top;
@@ -575,7 +575,7 @@ p span {
 }
 #columnscopy5 {
 	background-color: #FFFFFF;
-	width: 370px;
+	width: 500px;
 	height: auto;
 	float: left;
 	vertical-align: text-top;
