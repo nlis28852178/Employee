@@ -11,7 +11,7 @@ ul,ol{
 #nav{
 	width:1920px;
 	height:40px;
-	background-color: #FFF;
+	background-color: #69bb3a;
 	padding: 0px;
 	margin: 0px;
 	border-bottom-width: 1px;
@@ -84,7 +84,7 @@ ul,ol{
 	
 #menu li a {
 	display: block;
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	padding-top: 2px;
 	padding-right: 0px;
@@ -93,17 +93,17 @@ ul,ol{
 	}
 	
 #menu li a:link {
-	color: #000;
+	color: #fff;
 	border-bottom: 0px solid #fff;
 	background: transparent;
 }
 #menu li a:visited {
-	color: #000;
+	color: #fff;
 	border-bottom: 0px solid #fff;
 	background: transparent;
 }
 #menu li a:hover {
-	color: #488E48;
+	color: #000000;
 	border-bottom: 0px solid #fff;
 } 
 
